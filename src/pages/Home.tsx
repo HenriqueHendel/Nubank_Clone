@@ -3,6 +3,7 @@ import {  } from 'react-native'
 
 import Header from '../components/Header';
 import Tabs from '../components/Tabs';
+import Menu from '../components/Menu';
 
 import {MaterialIcons} from '@expo/vector-icons';
 
@@ -14,6 +15,8 @@ export default function Home() {
             <Header />
 
             <Content>
+                <Menu />
+                
                 <Card>
                     <CardHeader>
                         <MaterialIcons name='attach-money' size={28} color='#666' /> 
